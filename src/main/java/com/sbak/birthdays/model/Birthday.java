@@ -22,7 +22,7 @@ public class Birthday implements Serializable {
 
     private String firstname;
 
-    private String secondname;
+    private String lastname;
 
     private Date date;
 
@@ -31,7 +31,7 @@ public class Birthday implements Serializable {
 
     public Birthday(String firstname, String secondname, Date date) {
         this.firstname = firstname;
-        this.secondname = secondname;
+        this.lastname = secondname;
         this.date = date;
     }
 
@@ -43,12 +43,12 @@ public class Birthday implements Serializable {
         this.firstname = firstname;
     }
 
-    public String getSecondname() {
-        return secondname;
+    public String getLastname() {
+        return lastname;
     }
 
-    public void setSecondname(String secondname) {
-        this.secondname = secondname;
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
     }
 
     public Date getDate() {

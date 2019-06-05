@@ -27,7 +27,7 @@ public class BirthdayController {
         this.birthdayService = birthdayService;
     }
 
-    @CrossOrigin(origins = "*")
+    //@CrossOrigin(origins = "*")
     @RequestMapping(method = RequestMethod.GET)
     public List<Birthday> getAllBirthdays() {
         return birthdayService.getAll();

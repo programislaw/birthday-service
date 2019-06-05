@@ -1,1 +1,1 @@
-"c:\Program Files\Java\jdk1.8.0_144\bin\java.exe" -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=9000,suspend=n -Dserver.port=8888 -jar c:\workspace\Backend\birthdays-service\target\birthdays-service-1.0-SNAPSHOT.jar
+"c:\Program Files\Java\jdk1.8.0_144\bin\java.exe" -Xdebug -Xrunjdwp:server=y,transport=dt_socket,address=9000,suspend=n -Dserver.port=8888 -jar c:\workspace\Backend\birthday-service\target\birthdays-service-1.0-SNAPSHOT.jar 
